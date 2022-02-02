@@ -16,6 +16,11 @@
 		5BF11F7F27AACDC10052019C /* MementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F7E27AACDC10052019C /* MementoTests.swift */; };
 		5BF11F8927AACDC10052019C /* MementoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F8827AACDC10052019C /* MementoUITests.swift */; };
 		5BF11F8B27AACDC10052019C /* MementoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F8A27AACDC10052019C /* MementoUITestsLaunchTests.swift */; };
+		5BF11F9827AACDEF0052019C /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F9727AACDEF0052019C /* LineModel.swift */; };
+		5BF11F9A27AACE270052019C /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F9927AACE270052019C /* StateLinesMemento.swift */; };
+		5BF11F9C27AACE5B0052019C /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F9B27AACE5B0052019C /* LinesManager.swift */; };
+		5BF11F9E27AADA1D0052019C /* CarrierState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F9D27AADA1D0052019C /* CarrierState.swift */; };
+		5BF11FA027AADAAF0052019C /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11F9F27AADAAF0052019C /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5BF11F8427AACDC10052019C /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11F8827AACDC10052019C /* MementoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoUITests.swift; sourceTree = "<group>"; };
 		5BF11F8A27AACDC10052019C /* MementoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11F9727AACDEF0052019C /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		5BF11F9927AACE270052019C /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
+		5BF11F9B27AACE5B0052019C /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
+		5BF11F9D27AADA1D0052019C /* CarrierState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierState.swift; sourceTree = "<group>"; };
+		5BF11F9F27AADAAF0052019C /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				5BF11F7027AACDC10052019C /* Assets.xcassets */,
 				5BF11F7227AACDC10052019C /* LaunchScreen.storyboard */,
 				5BF11F7527AACDC10052019C /* Info.plist */,
+				5BF11F9727AACDEF0052019C /* LineModel.swift */,
+				5BF11F9927AACE270052019C /* StateLinesMemento.swift */,
+				5BF11F9B27AACE5B0052019C /* LinesManager.swift */,
+				5BF11F9D27AADA1D0052019C /* CarrierState.swift */,
+				5BF11F9F27AADAAF0052019C /* DrawView.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -260,7 +275,12 @@
 			files = (
 				5BF11F6C27AACDC00052019C /* ViewController.swift in Sources */,
 				5BF11F6827AACDC00052019C /* AppDelegate.swift in Sources */,
+				5BF11FA027AADAAF0052019C /* DrawView.swift in Sources */,
 				5BF11F6A27AACDC00052019C /* SceneDelegate.swift in Sources */,
+				5BF11F9E27AADA1D0052019C /* CarrierState.swift in Sources */,
+				5BF11F9827AACDEF0052019C /* LineModel.swift in Sources */,
+				5BF11F9A27AACE270052019C /* StateLinesMemento.swift in Sources */,
+				5BF11F9C27AACE5B0052019C /* LinesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
